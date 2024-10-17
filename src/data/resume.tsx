@@ -187,7 +187,7 @@ export const DATA = {
     },
     {
       title: "Slideshots",
-      href: "https://automatic.chat",
+      href: "https://slideshots.com",
       dates: "October 2024 - present",
       active: true,
       description:
