@@ -17,8 +17,8 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-    <main className="flex gap-14 min-h-[100dvh] ">
-      <div className="flex flex-col space-y-5 w-2/5 sticky top-24 h-full">
+    <main className="flex gap-14 min-h-[100dvh] flex-col md:flex-row">
+      <div className="flex flex-col space-y-5 md:w-2/5 md:sticky top-24 h-full">
         <section id="hero">
           <div className="mx-auto w-full space-y-2">
             <div className="pr-5 flex justify-between items-center">
@@ -87,7 +87,7 @@ export default function Page() {
           </BlurFade>
         </section>
       </div>
-      <div className="w-3/5 space-y-10">
+      <div className="md:w-3/5 space-y-10">
         <section id="work">
           <div className="flex min-h-0 flex-col gap-y-3">
             <BlurFade delay={BLUR_FADE_DELAY * 5}>
