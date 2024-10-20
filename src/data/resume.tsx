@@ -79,7 +79,7 @@ export const DATA = {
       start: "August 2023",
       end: "January 2024",
       description:
-        "Imple/home/tanpreetjolly/Downloads/medware.mp4mented the entire frontend for a veterinary product store using React, Redux, Tailwind and Material-UI. Designed and developed custom CMS for blogs in the store using jodit editor and react.",
+        "Implemented the entire frontend for a veterinary product store using React, Redux, Tailwind and Material-UI. Designed and developed custom CMS for blogs in the store using jodit editor and react.",
     },
     {
       company: "Genci Education",

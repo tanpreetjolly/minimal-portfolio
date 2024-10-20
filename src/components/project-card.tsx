@@ -55,9 +55,9 @@ export function ProjectCard({
           <Image
             src={image}
             alt={title}
-            width={600}
+            width={16/9 * 300}
             height={300}
-            className="h-40 w-full overflow-hidden aspect-video  object-top"
+            className="aspect-video w-full overflow-hidden aspect-video  object-top "
           />
         )}
       </Link>
